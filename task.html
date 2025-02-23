@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Innovation Platform</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        .hero {
+            background: linear-gradient(to right, #000428, #004e92);
+            color: white;
+            padding: 100px 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        .btn {
+            background: #ff6600;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            margin-top: 20px;
+            display: inline-block;
+            transition: background 0.3s ease, transform 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background: #e65c00;
+            transform: scale(1.15);
+        }
+        .features {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .feature-box {
+            width: 30%;
+            padding: 30px;
+            background: white;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+        }
+        .feature-box:hover {
+            transform: translateY(-10px);
+        }
+        .feature-box img {
+            width: 50px;
+            height: 50px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .tooltip {
+            display: none;
+            position: absolute;
+            background: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            max-width: 250px;
+        }
+        .feature-box:hover .tooltip {
+            display: block;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .advertisement {
+            background: #ffcc00;
+            padding: 60px 20px;
+            margin: 20px 0;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        .advertisement h2 {
+            font-size: 2.5rem;
+        }
+        .advertisement p {
+            font-size: 1.5rem;
+        }
+        .testimonials {
+            background: #eeeeee;
+            padding: 60px 20px;
+        }
+        .testimonial {
+            font-style: italic;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Revolutionizing AI for the Future</h1>
+        <p>Join our cutting-edge AI innovation platform.</p>
+        <a href="https://aiinnovationhub.com/get-started" class="btn">Get Started</a>
+    </div>
+    <div class="advertisement">
+        <h2>Exclusive AI Insights</h2>
+        <p>Stay ahead with the latest AI advancements and industry trends.</p>
+        <a href="https://aiinnovationhub.com/insights" class="btn">Learn More</a>
+    </div>
+    <div class="features">
+        <div class="feature-box">
+            <img src="ai-icon.png" alt="AI Solutions">
+            <h2>AI-Powered Solutions</h2>
+            <p>Advanced AI models designed for businesses and research.</p>
+            <div class="tooltip">Get the most advanced AI solutions to power your business and research needs.</div>
+        </div>
+        <div class="feature-box">
+            <img src="deep-learning.png" alt="Deep Learning">
+            <h2>Deep Learning Innovation</h2>
+            <p>State-of-the-art deep learning algorithms for high performance.</p>
+            <div class="tooltip">Explore cutting-edge deep learning models with exceptional efficiency.</div>
+        </div>
+        <div class="feature-box">
+            <img src="analytics.png" alt="Data Analytics">
+            <h2>Smart Data Analytics</h2>
+            <p>Unleash the power of data-driven decision-making.</p>
+            <div class="tooltip">Transform your business with AI-powered data insights.</div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <h2>What AI Experts Say</h2>
+        <p class="testimonial">"This platform is at the forefront of AI innovation. A must-have for AI enthusiasts!" - Dr. Smith</p>
+        <p class="testimonial">"Transformative AI solutions that redefine industries." - Prof. Johnson</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 AI Innovation Hub. All rights reserved.</p>
+    </div>
+</body>
+</html>
